@@ -1,0 +1,10 @@
+.myContainerStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: var(--gold-color);
+    background-color: black;
+}

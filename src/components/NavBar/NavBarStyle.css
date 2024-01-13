@@ -1,0 +1,82 @@
+.NavStyle{
+   box-shadow:  0 0 5px rgba(0, 0, 0, 0.2);
+   background-color: rgba(0, 0, 0, 0.936);
+   position: fixed;
+   margin-bottom: 8%;
+   width: 100%;
+   left: 0;
+   right: 0;
+   top: 0;
+   z-index: 1000;
+
+  }
+.NavStyle .nav .nav-link {
+   color:var(--gold-color);
+   position: relative;
+   padding: 12px;
+ }
+ .navbar-toggler {
+   background-color: var(--gold-color);
+   color: black;
+   
+ }
+ .NavStyle .nav .nav-link .line {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 0;
+   height: 2px;
+   background-color: var(--gold-color);
+   transition: width 0.3s ease-out, left 0.3s ease-out;
+ }
+ .NavStyle .nav .nav-link .lineUp{
+   position: absolute;
+   top:0;
+   right: 0;
+   width: 0;
+   height: 2px;
+   background-color: var(--gold-color);
+   transition: width 0.3s ease-out, right 0.3s ease-out; 
+ }
+
+ .NavStyle .nav .nav-item .dropdown-menu {
+   top: 100%;  }
+ .NavStyle .nav .nav-link:hover .line {
+   width: 100%;
+   left: 0;
+ }
+ .NavStyle .nav .nav-link:hover .lineUp{
+   width: 100%;
+   right: 0;
+ }
+.btn{
+   background-color:var(--gold-color);
+   color: black;
+   border: 0;
+   border-radius: 20px;
+   margin: 12px;
+  
+}
+
+.btn:hover{
+   background-color: black;
+   color:var(--gold-color) ;
+}
+#basic-nav-dropdown{
+   bottom: 0;
+}
+.dropdown-menu{
+   background-color: black;
+   color: var(--gold-color);
+}
+.dropdown-item{
+   color:var(--gold-color);
+}
+.dropdown-item:hover{
+background-color:var(--gold-color);
+color: black;
+
+}
+a{
+   color: var(--gold-color);
+}

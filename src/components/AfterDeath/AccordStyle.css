@@ -1,0 +1,20 @@
+.accordion-item {
+    border: 2px solid var(--gold-color);
+}
+.accordion-button{
+background-color: var(--gold-color);
+color: black;
+border: none;
+box-shadow:  0 0 5px rgba(0, 0, 0, 0.2);
+}
+.accordion-button:not(.collapsed){
+    background-color:var(--gold-color);
+    color: black;
+}
+
+.accordion-item button:focus,
+.accordion-item button:not(.collapsed):focus {
+  outline: none;
+  border: 1px solid transparent; 
+  box-shadow: none; 
+}

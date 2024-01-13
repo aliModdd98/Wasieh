@@ -1,0 +1,146 @@
+.containerSign,.myLogin {
+   
+    display: flex;
+    align-items: flex-end;
+    justify-content:center;
+    
+}
+
+.fa_custom-padding{
+    padding-block: 15px;
+}
+.input_searchForm:focus{
+    border: none;
+}
+.gold{color: var(--gold-color);}
+.Login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    height: 85%;
+}
+
+.Sign {
+    display: flex;
+    flex-direction: row-reverse !important;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    height: 90%;
+
+    margin: 1% auto;
+
+}
+
+.Sign .leftSec,
+.Login .leftSec {
+    width: 53%;
+    height: 100%;
+    margin: 3% 5%;
+}
+
+.Sign .rightSec,
+.Login .rightSec {
+    width: 46%;
+    height: 100%;
+}
+
+
+
+.rightSec {
+    background: linear-gradient(to right, #dca938, rgba(0, 0, 0, 0.699));
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.activeSpan {
+    width: 20px;
+    height: 10px;
+    border-radius: none;
+    background-color: #FF8500;
+
+}
+
+.logoSign {
+    width: 25%;
+    height: 12%;
+
+}
+
+.logoSign .logoS {
+    width: 100%;
+    height: 100%;
+}
+
+.orangText {
+    color: var(--primary-color);
+}
+
+.btn-orange {
+    background-color: black;
+    color: var(--gold-color);
+    width: 90%;
+    margin-top: 3%;
+}
+
+.forgetPass {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.forgetLine {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.ToSign {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.hoverButton:hover {
+    background-color: var(--primary-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.active {
+    background-color: var(--primary-color);
+
+}
+
+a {
+    text-decoration: none;
+}
+@media (max-width:1040px) {
+    .rightSec {
+        display: none !important;
+          }  
+          .Sign .leftSec,
+          .Login .leftSec {
+              width: 90%;
+              height: 100%;
+              margin: 9% 5%;
+          }
+}
